@@ -1,0 +1,4 @@
+- Modificacion de las rotaciones -> paso de Nodo* a void y hace las asignaciones dentro de la propia rotacion
+- Los cambios de altura se hacen dentro de la propia rotacion en vez de fuera (para mantener la coherencia)
+- Se ha quitado la llamada al constructor de Fecha en el constructor de Nodo ya que no era necesaria.
+- Se han quitado las comprobaciones de si los punteros eran nulos en el destructor ya que no son necesarios.
